@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(36, 34, 34, 0.9),rgba(35, 33, 33, 0.9),rgba(36, 35, 35, 0.9));
+}
+.tanvir{
+
+}
+
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0 ,0 ,0.5)),url(header-image.png);
+    height:720px;
+    background-size: cover;
+
+}
+
+.tanvi{
+    height:5rem;
+    width: 100%;
+    display: flex;
+    align-items:center;
+
+}
+.heade_div img{
+
+   width:9.3rem;
+   height:2.6rem;
+  color: rgb(193, 4, 4);
+
+}
+.heade_div input{
+    width: 4.9625rem;
+    height: 2.3rem;
+    color:white;
+    background-color: red;
+   border: none;
+   border-radius: 5px;
+   font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.heade_div input:hover{
+    background-color: red;
+    cursor:pointer;
+    background-color: rgb(213, 17, 17);
+}
+
+.heade_div{
+  margin:10px auto;
+  height:10rem ;
+  width:75%;
+  margin-top: 30px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.header_body{
+    margin: 90px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+.header_body div h1{
+ color: rgb(255, 255, 255);
+ font-size:3rem;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: bold;
+ margin-bottom: 2rem;
+}
+
+.header_body div h3{
+    color: rgb(255, 254, 254);
+    font-size: 1.2rem;
+  font-weight: lighter;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+
+}
+#ta{
+    color: rgb(255, 253, 253);
+    font-size: 1.6rem;
+    font-style:inherit;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.header_body div form input[type="button"]{
+    height: 3.8rem;
+    width: 12.5rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+form{
+    text-align: center;
+} 
+
+.header_body div form input[type="button"]:hover{
+    background-color: rgb(148, 8, 8);
+    cursor:pointer;
+}
+.header_body div form input[type="Email"]{
+    height:4rem;
+    width: 25.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 0;
+}
+
+.header_body div form input::placeholder{
+    color: white;
+    padding-left: 15px;
+    font-size:16px;
+}
+.body_contant{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.body{
+    height:36rem;
+    width: 100%;
+    background-color: black;
+    margin: 10px auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.body_contant{
+    margin: 20px auto;
+    height:20.813rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+.div1{
+
+ padding-left:10rem;
+
+}
+.div1 h1{
+    padding-left:2rem;
+    font-size:2.5rem;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.div1 p{
+    font-size:1.5rem;
+    margin: 16px 0 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,sans-serif;
+    color:white;
+    line-height:2rem;
+    float:left;
+    margin-left: 30px;
+    margin-top: 25px;
+
+}
+.div_img img {
+   height:29.375rem;
+
+}
+.body5{
+    height:63.75rem;
+    width: 100%;
+    background-color: black;
+}
+
+.chaile h2{
+
+text-align: center;
+font-size:3rem;
+color: white;
+margin: 80px auto 20px auto ;
+
+
+}
+.chaile h3{
+
+   height:5.25rem;
+   width:75%;
+   background-color: rgb(45, 45, 45);
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+.chaile h3 samp{
+    color: white;
+    font-weight: lighter;
+    font-size:1.4rem;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.chaile{
+    background-color:#0a0909;
+    height:49rem;
+    width: 100%;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bfooter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.bfooter div h3{
+
+    color: white;
+    padding-top: 50px;
+    padding-bottom:10px;
+    font-size:1.5rem;
+    font-weight: lighter;
+}
+.bfooter div form input[type="email"]{
+  
+    height:3.8rem;
+    width: 26.5rem;
+    background-color: rgba(13, 9, 9, 0.5);
+    border: 0; 
+    border: 1px solid rgb(84, 80, 80); 
+    margin-top: 8px;
+}
+.bfooter div form input::placeholder{
+
+    color: white;
+    padding-left:15px ;
+    font-size:16px;
+}
+.bfooter div form input[type="button"]{
+   
+    height: 3.8rem;
+    width: 12.5rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+.bfooter div form input[type="button"]:hover{
+
+    background-color: rgb(174, 5, 5);
+    cursor:pointer;
+}
+.chaile h3:hover{
+    background-color: rgba(60, 63, 65, 0.962);
+    cursor: pointer;
+
+}
+footer{
+    height:25rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.footerc{
+    height:21rem;
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footerc ul{
+    list-style:none ;
+
+}
+.footerc ul li{
+    margin: 20px auto;
+    
+}
+.footerc ul li a{
+    color:#8f8c8c;
+    font-size:17px;
+}
+#firstli{
+    font-size:18px;
+    margin-bottom: 30px;
+}
+.opption{
+    height: 30px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.reverse{
+    order: 2;
+}
